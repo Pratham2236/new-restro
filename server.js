@@ -6,7 +6,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const app = express();
 
-const allowedOrigins = ["https://pratham2236.github.io", "http://localhost:3000", "http://localhost:5001"];
+const allowedOrigins = ["https://pratham2236.github.io", "http://localhost:3000", "http://localhost:5001","https://shiny-invention-v6pp47j45gwqf6wqv-27017.app.github.dev"];
 
 app.use(cors({
   origin: function (origin, callback) {
